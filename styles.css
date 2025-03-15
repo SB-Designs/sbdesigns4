@@ -522,26 +522,3 @@ hr {
 	margin-bottom: calc(var(--padding) / 2)
 }
 
-.logo-wrapper {
-	width: 53px;
-	overflow: hidden;
-	transition: all .5s ease
-}
-
-@media screen and (min-width: 760px) {
-	.logo-wrapper {
-		width: 200px
-	}
-}
-
-.bg-a {
-	position: absolute;
-	left: 0;
-	top: 0;
-	overflow: hidden;
-	max-width: 100vw
-}
-
-.bg-a svg {
-	transform: translate(-544px)
-}
